@@ -44,6 +44,7 @@ public class memberloginpage {
 	
 	public loginbutton getloginbutton() {
 		return Loginbutton;
+		
 	}
 	
 	

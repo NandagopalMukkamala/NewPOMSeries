@@ -109,6 +109,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 	public void educationtab() {
 		this.wait.until((d) -> this.education.isDisplayed());
 		this.education.click();
+		System.out.println("My New Update");
 		
 	}
 
