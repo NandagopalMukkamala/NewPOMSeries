@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TAG Suite">
+ 
+<parameter name="environment"  value="qa"/>
+<!--  
+<listeners>
+<listener class-name="com.qa.portal.ecps.ca.tesultsreport.TesultsListener"/> 
+</listeners>
+-->
+  <test name="Testing">
+    <classes>
+     <!--  
+      <class name="com.qa.portal.ecps.ca.enironments.EnvironmentTest"/>
+      <class name="com.qa.portal.ecps.ca.Decorator.tests.PortalpublicpageTest"/>
+      -->
+      <class name="com.qa.portal.ecps.ca.tests.exceldata"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

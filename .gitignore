@@ -1,0 +1,30 @@
+allure-results/
+screenshot/
+test-output/
+build/
+reports/
+
+application.log
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.classpath
+*.project
+*.settings
+hs_err_pid*
+activityLog.log
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
